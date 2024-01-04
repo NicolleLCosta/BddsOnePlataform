@@ -44,6 +44,7 @@ bdds-oneplatform/
 ### <u> Observações: </u>
 
 - Antes de seguir os passos abaixo, certifique-se de estar na **pasta raiz do projeto** (o mesmo diretório que o arquivo package.json/package-lock.json), caso contrário o node não irá localizar as referências necessárias para configurar o projeto.
+
 ---
 
 Com os arquivos criados, vamos utilizar o **NPM** para configurar as dependências do projeto.
@@ -82,7 +83,9 @@ Caso queira testar apenas determinados cenários você pode configurar a opção
 - Escolha a feature que deseja testar
 - Abra o arquivo da feature. Digite a tag **`“@focus”`** acima do cenário que deseja testar, dessa forma, apenas os cenários sinalizados serão executados no cypress.
 ---
+
 Seguindo esses passos, você será capaz de clonar o projeto de automação de testes da OnePlatform em sua máquina bem como os cenários de testes separados por funcionalidade, instalar e configurar as dependências do projeto e executar os testes automatizados da plataforma.
+
 ---
 **Documentação detalhada no Confluence**
  (https://skyinone.atlassian.net/wiki/spaces/QA/pages/3682271246/WIP+Automa+o+OnePlatform+-+Configura+o+do+projeto)
