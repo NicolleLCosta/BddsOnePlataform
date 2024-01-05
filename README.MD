@@ -78,7 +78,7 @@ Em seguida, **escolha o browser onde deseja executar os teste**s e clique no bot
 ### <u> Observações: </u>
 Por padrão, o cypress irá executar todos os cenários de testes de uma mesma feature:
 
-Caso queira testar apenas determinados cenários você pode configurar a opção “@focus” no arquivo feature do projeto:
+Caso queira testar apenas determinados cenários você pode configurar a opção **“@focus”** no arquivo feature do projeto:
 
 - Escolha a feature que deseja testar
 - Abra o arquivo da feature. Digite a tag **`“@focus”`** acima do cenário que deseja testar, dessa forma, apenas os cenários sinalizados serão executados no cypress.
